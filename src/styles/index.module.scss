@@ -1,0 +1,13 @@
+.nav {
+  background-color: yellowgreen;
+  color: blue;
+  padding: 5px;
+
+  ul {
+    display: flex;
+
+    li {
+      padding-right: 10px;
+    }
+  }
+}
