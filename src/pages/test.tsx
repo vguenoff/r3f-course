@@ -1,10 +1,12 @@
+import Box from '@/components/canvas/Box'
+
 export default function Page() {
   return <main>This is the first r3f page</main>
 }
 
 Page.canvas = () => (
-  <mesh>
-    <boxGeometry />
-    <meshBasicMaterial color={0x00ff00} wireframe />
-  </mesh>
+  <>
+    <Box position={[-0.75, 0, 0]} name='A' wireframe />
+    <Box position={[0.75, 0, 0]} name='B' wireframe />
+  </>
 )
