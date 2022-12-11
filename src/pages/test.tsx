@@ -1,14 +1,10 @@
-import dynamic from 'next/dynamic'
-import Instructions from '@/components/dom/Instructions'
-
-const Blob = dynamic(() => import('@/components/canvas/Blob'), { ssr: false })
-
-export default function Page(props) {
-  return <Instructions>This is the first r3f page</Instructions>
+export default function Page() {
+  return <main>This is the first r3f page</main>
 }
 
-Page.canvas = (props) => <Blob route='/' position-y={-0.75} />
-
-export async function getStaticProps() {
-  return { props: { title: 'Blob' } }
-}
+Page.canvas = () => (
+  <mesh>
+    <boxGeometry />
+    <meshBasicMaterial color={0x00ff00} wireframe />
+  </mesh>
+)
