@@ -17,10 +17,7 @@ export default function Page(props) {
         <h2>Course navigation</h2>
         <ul>
           <li>
-            <Link href={'/test'}>First test</Link>
-          </li>
-          <li>
-            <Link href={'/test'}>First test</Link>
+            <Link href={'/basics'}>R3F Basics</Link>
           </li>
         </ul>
       </nav>
