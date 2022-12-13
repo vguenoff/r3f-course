@@ -5,9 +5,12 @@
 
   ul {
     display: flex;
+    justify-content: space-around;
 
     li {
       padding-right: 10px;
     }
   }
+
+  text-align: center;
 }

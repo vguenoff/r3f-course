@@ -17,7 +17,10 @@ export default function Page(props) {
         <h2>Course navigation</h2>
         <ul>
           <li>
-            <Link href={'/basics'}>R3F Basics</Link>
+            <Link href={'/basics'}>Box 1 Example</Link>
+          </li>
+          <li>
+            <Link href={'/basics-2'}>Box 2 Example</Link>
           </li>
         </ul>
       </nav>

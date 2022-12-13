@@ -1,12 +1,17 @@
-import Box from '@/components/canvas/Box'
+import Box1 from '@/components/canvas/Box1'
 
 export default function Page() {
-  return <main>This is the first r3f page</main>
+  return (
+    <main>
+      <h2>This is the Box 1 example</h2>
+      <p>click to initiate rotation</p>
+    </main>
+  )
 }
 
 Page.canvas = () => (
   <>
-    <Box position={[-0.75, 0, 0]} name='A' wireframe />
-    <Box position={[0.75, 0, 0]} name='B' wireframe />
+    <Box1 position={[-0.75, 0, 0]} name='A' wireframe />
+    <Box1 position={[0.75, 0, 0]} name='B' wireframe />
   </>
 )
