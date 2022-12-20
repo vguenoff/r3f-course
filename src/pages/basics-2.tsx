@@ -15,6 +15,6 @@ export default function Page() {
 Page.canvas = () => (
   <>
     <Box2 {...{ polyhedron }} position={[-0.75, 0, 0]} name='A' wireframe />
-    <Box2 {...{ polyhedron }} position={[0.75, 0, 0]} name='B' wireframe />
+    <Box2 {...{ polyhedron }} position={[0.75, 0, 0]} name='B' />
   </>
 )

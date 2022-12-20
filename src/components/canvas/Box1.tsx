@@ -1,6 +1,6 @@
 import { Mesh, MeshBasicMaterial } from 'three'
 import { useFrame, MeshProps } from '@react-three/fiber'
-import { useState, useEffect, useLayoutEffect, useRef } from 'react'
+import { useState, useLayoutEffect, useRef } from 'react'
 
 type BoxProps = MeshProps & { wireframe?: boolean }
 
